@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+body
+{
+    background-color: white;S
+}
+
+.open{
+  background-image: url("background.jpeg");
+  
+}
+.gagak{
+    text-align: center;
+}
+
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    padding: 2px;
+}
+.navbar{
+    width: 1200px;
+    height: 50px;
+    margin: auto;
+    padding:2px;
+}
+nav{
+    background-color: black;
+}
+
+
+nav ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+nav ul li{
+    float: left;
+}
+nav ul li a {
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 9px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: blue;
+}
+
+ 
+.banner
+{
+    margin-bottom: 15px;
+}
+ 
+.banner img
+{
+    display: block;
+    width: 100%;
+    height: 330px;
+}
+.bungkus{
+    width: 100%;
+}
+.badan{
+    width: 100%;
+}
+.kotak{
+    width: 100%;
+}
+.track{
+    width: 100%;
+}
+.kio{
+    width: 100%;
+}
+.oki{
+    background-color: #D5D5D5;
+}
+.naik{
+    margin: -46px;
+}
+.dukungan{
+    background-color: #212121;
+}
+ .mbek{
+     padding: 8px;
+     color: white;
+ }
+ tr{
+     text-align: left;
+ }
+
+.puter{
+    background-color: #343434;
+    padding: 12px;
+}
+footer{
+    color: #676767;
+    text-align: center;
+}
+.rewewe:hover{
+  color:#676767;
+}
