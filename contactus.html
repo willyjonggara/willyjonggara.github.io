@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <style>
+ body{
+        background-color: rgb(235, 226, 226);
+        color: black;
+    }
+    .sapi{
+        text-align: center;
+    }
+    .dadu{
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="dadu">
+        <h1>hubungi kami</h1>
+    </div>
+   <hr>
+    <h2>isi biodata anda di bawah ini</h2>
+     
+    <form action="simpan.php" method="post">
+        <table>
+            <tr>
+                <td><label for="nama">nama</lable><td>:</td>
+                <td><input type="text" id="nama" name="nama" placeholder="ketik nama anda"></label><br></td>
+            </tr>
+            <tr>
+                <td><label for="nama">alamat </lable><td>:</td>
+                <td><input type="text" id="nama" name="nama" placeholder="ketik alamat anda"></label><br></td>
+            </tr>
+            <tr>
+                <td><label for="nama">nomor telepon</lable><td>:</td>
+                <td><input type="text" id="nama" name="nama" placeholder="ketik nomor telepon"></label><br></td>
+            </tr>
+            <tr>
+                <td><label for="email">email</label><td>:</td>
+                <td><input type="email" id="email" placeholder="masukan nama email anda"></label><br></td>
+            </tr>
+            <tr>
+                <td><label for="password">password </label><td>:</td>
+                <td><input type="password" id="password" placeholder="password"></label><br></td>
+            </tr>
+            <tr>
+                <td><label for="jenis_kelamin">jenis kelamin </label><td>:</td>
+                <td><input type="radio" name="jenis_kelamin" value="laki-laki">laki-laki</label>
+                <input type="radio" name="jenis_kelamin" value="perempuan">perempuan</label><br></td>
+            </tr>
+            <tr>
+                <td><label for="hoby">hoby </label><td>:</td>
+                <td><input type="checkbox" name="hoby" value="olahraga">olahraga</label>
+                <input type="checkbox" name="hoby" value="buat_lagu">menyanyi</label>
+               <input type="checkbox" name="hoby" value="main_musik">traveling</label><br></td>
+            </tr>  
+            <tr> <td><label for="agama">agama </label></td><td>:</td>
+                  <td><select name="agama">
+                    <option value="">pilih agama</option>
+                    <option value="kristen_protestan">kristen protestan</option>
+                    <option value="islam">islam</option>   
+                    <option value="hindu">hindu</option>
+                    <option value="buddha">buddha</option>
+                    <option value="khatolik">khatolik</option>
+                  </select><br></td>
+            </tr>
+            <tr>
+                <td><label for="komentar">komentar</label></td><td>:</td>
+                <td><textarea name="komentar" rows="10" cols="30" placeholder="ketikan komentar anda">
+                </textarea><br>
+                <input type="submit" value="simpan">
+                <input type="reset"  value="reset">
+                <a href="index.html">Home</a>
+            </tr>
+        
+        </table> 
+       
+    </form>
+
+</body>
+</html>
